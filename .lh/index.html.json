@@ -1,0 +1,66 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1713512573487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1713512647888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n                     <a href=\"/\">Food Ninja</a>\n                 </h1>\n                 <ul>\n                 \n-                    <li>\n+                    <li class=\"=text-gray-700\">\n                         <a href=\"#\">\n                             <span>Home</span>\n                         </a>\n                     </li>\n"
+                },
+                {
+                    "date": 1713512680156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     <div>\n         <div>\n             <nav>\n                 <div>\n-                <h1>\n+                <h1 class=\"font-bold uppercase\">\n                     <a href=\"/\">Food Ninja</a>\n                 </h1>\n                 <ul>\n                 \n"
+                },
+                {
+                    "date": 1713515303727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <title>Document</title>\n     <link rel=\"stylesheet\" href=\"./public/styles.css\">\n </head>\n \n-<body class=\"text-gray-600\">\n+<body class=\"bg-emerald-50\">\n     <div>\n         <div>\n             <nav>\n                 <div>\n"
+                },
+                {
+                    "date": 1713515743196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,7 +80,22 @@\n             </div>\n         </main>\n         \n     </div>\n+\n+    <div class=\"py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6\">\n+        <img class=\"block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0\" src=\"/img/erin-lindford.jpg\" alt=\"Woman's Face\" />\n+        <div class=\"text-center space-y-2 sm:text-left\">\n+          <div class=\"space-y-0.5\">\n+            <p class=\"text-lg text-black font-semibold\">\n+              Erin Lindford\n+            </p>\n+            <p class=\"text-slate-500 font-medium\">\n+              Product Engineer\n+            </p>\n+          </div>\n+          <button class=\"px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2\">Message</button>\n+        </div>\n+      </div>\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713515756595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n         \n     </div>\n \n     <div class=\"py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6\">\n-        <img class=\"block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0\" src=\"/img/erin-lindford.jpg\" alt=\"Woman's Face\" />\n+        \n         <div class=\"text-center space-y-2 sm:text-left\">\n           <div class=\"space-y-0.5\">\n             <p class=\"text-lg text-black font-semibold\">\n               Erin Lindford\n"
+                },
+                {
+                    "date": 1713778211707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,21 +81,8 @@\n         </main>\n         \n     </div>\n \n-    <div class=\"py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6\">\n-        \n-        <div class=\"text-center space-y-2 sm:text-left\">\n-          <div class=\"space-y-0.5\">\n-            <p class=\"text-lg text-black font-semibold\">\n-              Erin Lindford\n-            </p>\n-            <p class=\"text-slate-500 font-medium\">\n-              Product Engineer\n-            </p>\n-          </div>\n-          <button class=\"px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2\">Message</button>\n-        </div>\n-      </div>\n+ \n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1713778278367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n                     <a href=\"/\">Food Ninja</a>\n                 </h1>\n                 <ul>\n                 \n-                    <li class=\"=text-gray-700\">\n+                    <li class=\"=text-gray-700 font-bold\">\n                         <a href=\"#\">\n                             <span>Home</span>\n                         </a>\n                     </li>\n"
+                },
+                {
+                    "date": 1713778319391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n             </div>\n     \n     \n             <header>\n-                <h2>Recipes</h2>\n+                <h2 class=\"text-gray-700 text-6xl\">Recipes</h2>\n                 <h3>For Ninjas</h3>\n             </header>\n     \n             <div>\n"
+                },
+                {
+                    "date": 1713778327346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n             </div>\n     \n     \n             <header>\n-                <h2 class=\"text-gray-700 text-6xl\">Recipes</h2>\n+                <h2 class=\"text-gray-700 text-6xl font-semibold\">Recipes</h2>\n                 <h3>For Ninjas</h3>\n             </header>\n     \n             <div>\n"
+                },
+                {
+                    "date": 1713778350278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     \n     \n             <header>\n                 <h2 class=\"text-gray-700 text-6xl font-semibold\">Recipes</h2>\n-                <h3>For Ninjas</h3>\n+                <h3 class=\"text-2xl font-semibold\">For Ninjas</h3>\n             </header>\n     \n             <div>\n                 <h4>Latest Recipes</h4>\n"
+                },
+                {
+                    "date": 1713778374725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                 <h3 class=\"text-2xl font-semibold\">For Ninjas</h3>\n             </header>\n     \n             <div>\n-                <h4>Latest Recipes</h4>\n+                <h4 class=\"font-bold\">Latest Recipes</h4>\n                 <div>\n                     <div>\n                         <img src=\"img/stew.jpg\" alt=\"stew\">\n                         <div>\n"
+                },
+                {
+                    "date": 1713778395853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n                         </div>\n                     </div>\n                 </div>\n     \n-             <h4>Most popular</h4>\n+             <h4 class=\"font-bold\">Most popular</h4>\n     \n                 <div>\n         \n                 </div>\n"
+                }
+            ],
+            "date": 1713512573487,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <title>Document</title>\n    <link rel=\"stylesheet\" href=\"./public/styles.css\">\n</head>\n\n<body class=\"text-gray-600\">\n    <div>\n        <div>\n            <nav>\n                <div>\n                <h1>\n                    <a href=\"/\">Food Ninja</a>\n                </h1>\n                <ul>\n                \n                    <li>\n                        <a href=\"#\">\n                            <span>Home</span>\n                        </a>\n                    </li>\n              \n                \n                    <li>\n                        <a href=\"#\">\n                            <span>About</span>\n                        </a>\n                    </li>\n             \n                \n                    <li>\n                        <a href=\"#\">\n                            <span>Contact</span>\n                        </a>\n                    </li>\n                </ul>\n            </nav>\n    \n        </div>\n    \n    \n    \n        <main>\n            <div>\n                <a href=\"#\">Log in</a>\n                <a href=\"#\">Sign up</a>\n            </div>\n    \n    \n            <header>\n                <h2>Recipes</h2>\n                <h3>For Ninjas</h3>\n            </header>\n    \n            <div>\n                <h4>Latest Recipes</h4>\n                <div>\n                    <div>\n                        <img src=\"img/stew.jpg\" alt=\"stew\">\n                        <div>\n                            <span>5 bean Chili Stew</span>\n                            <span>Recipe by Mario</span>\n                        </div>\n                    </div>\n                </div>\n    \n             <h4>Most popular</h4>\n    \n                <div>\n        \n                </div>\n             </div>\n            <div>\n                <div>Load more</div>\n            </div>\n        </main>\n        \n    </div>\n</body>\n\n</html>"
+        }
+    ]
+}
